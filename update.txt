@@ -1,0 +1,18 @@
+# LSapp update list. LSapp reads this file and offers an update only when
+# "version" below is newer than the installed LSapp.
+#
+# To allow an update: publish the installer as a release of this repository,
+# then change the lines below. To withdraw it, put the older number back.
+#
+# version = version offered as the update
+# module  = version of the LSapp WASM module in that release
+#           (same as before = the module is not reinstalled, MSFS can keep running)
+# url     = installer in the Releases of this repository
+# sha256  = SHA-256 checksum of the installer
+# notes   = what is new, items separated with |
+
+version=0.000.0
+module=6
+url=
+sha256=
+notes=
