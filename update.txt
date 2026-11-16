@@ -11,8 +11,8 @@
 # sha256  = SHA-256 checksum of the installer
 # notes   = what is new, items separated with |
 
-version=0.000.5
+version=0.000.6
 module=6
-url=https://github.com/Lupson665/LSapp/releases/download/v0.000.5/LSapp_Setup_0.000.5.exe
-sha256=a8c91ea30df4a032e1d8aeb212535b3c05907bda892c2cf66e0bb9449be90949
-notes=Portless USB connection (HID), Pro Micro / Leonardo only|USB joystick buttons optional (1-32), off by default|Board configurator shows firmware features
+url=https://github.com/Lupson665/LSapp/releases/download/v0.000.6/LSapp_Setup_0.000.6.exe
+sha256=8dabbb918192b67501610bf648c8205350c3653a815918cf937f035e4497259d
+notes=PCF8575 optional in the firmware, options start unchecked|Remove a board, or replace an existing board with a new ID|USB port picked by default when flashing; new boards are announced|Board configurator shows what a silent board sent
