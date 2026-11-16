@@ -11,7 +11,7 @@
 # sha256  = SHA-256 checksum of the installer
 # notes   = what is new, items separated with |
 
-version=0.000.0
+version=0.000.4
 module=6
 url=
 sha256=
