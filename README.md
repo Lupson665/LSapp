@@ -8,7 +8,7 @@ LSapp connects cockpit boards running the LSboard firmware to the simulator: but
 
 Installers are published on the [Releases](https://github.com/Lupson665/LSapp/releases) page.
 
-Current test version: **0.000.5** (pre-release, for testing). Download `LSapp_Setup_0.000.5.exe` from that release and run it.
+Current test version: **0.000.6** (pre-release, for testing). Download `LSapp_Setup_0.000.6.exe` from that release and run it.
 
 ## Updates
 
