@@ -13,6 +13,6 @@
 
 version=0.000.4
 module=6
-url=
-sha256=
-notes=
+url=https://github.com/Lupson665/LSapp/releases/download/LSappv0.000.4/LSapp_Setup_0.000.4.exe
+sha256=248eef82dcc428975b262682563ce4e03fb8cbc32d243bc4ec2ffa3ce8fdac8a
+notes=USB joystick axes when flashing the firmware|Board package import into another aircraft rule
