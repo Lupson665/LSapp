@@ -11,8 +11,8 @@
 # sha256  = SHA-256 checksum of the installer
 # notes   = what is new, items separated with |
 
-version=0.000.6
+version=0.000.7
 module=6
-url=https://github.com/Lupson665/LSapp/releases/download/v0.000.6/LSapp_Setup_0.000.6.exe
-sha256=8dabbb918192b67501610bf648c8205350c3653a815918cf937f035e4497259d
-notes=PCF8575 optional in the firmware, options start unchecked|Remove a board, or replace an existing board with a new ID|USB port picked by default when flashing; new boards are announced|Board configurator shows what a silent board sent
+url=https://github.com/Lupson665/LSapp/releases/download/v0.000.7/LSapp_Setup_0.000.7.exe
+sha256=0e5a348014707d9de7330847c780146bc3465bfaec90f2e6d78fa6a9b6e6e1f1
+notes=Fix: Arduino Mega 2560 clones (CH340) can now be read and written in the board configurator|Serial port opened like in Arduino IDE (DTR and RTS on)
