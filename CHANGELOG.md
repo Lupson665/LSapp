@@ -2,6 +2,17 @@
 
 All test versions of LSapp. Installers are on the [Releases](https://github.com/Lupson665/LSapp/releases) page.
 
+## 0.000.6 (test version)
+
+- PCF8575 expanders are now optional in the firmware ("PCF8575 (I2C expander)" in "Flash LSboard firmware").
+- "Flash LSboard firmware": the options (OLED, 7-segment, motors, PCF8575) start unchecked - tick only what the board uses. Choices saved earlier are kept.
+- "Flash LSboard firmware": USB ports are listed first, so the main-board COM1 is no longer picked by default. The empty LSboard.ino field says that the firmware built into LSapp is used.
+- A freshly flashed board is announced ("New board ... on COMx"); click it to open the board configurator.
+- Board configurator: shows which parts the firmware was built without, and what a board sent when it does not answer.
+- Remove a board: right-click its tab in the main window -> "Remove board" (names and expressions can be deleted or moved to another board).
+- New board ID in the board configurator: add it as a new board, or let it replace an existing board.
+- A board connected over portless USB (HID) is no longer searched again on its COM port.
+
 ## 0.000.5 (test version)
 
 - Portless USB connection (HID), test version, Pro Micro / Leonardo only: option "Portless USB (HID)" in "Flash LSboard firmware". LSapp then talks to the board without a COM port ("Port: USB (HID)"). The COM port stays for the board configurator and flashing.
