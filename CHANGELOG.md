@@ -2,6 +2,12 @@
 
 All test versions of LSapp. Installers are on the [Releases](https://github.com/Lupson665/LSapp/releases) page.
 
+## 0.000.7 (test version)
+
+- Fix: Arduino Mega 2560 clones (CH340) could not be read or written in the board configurator (`No answer to @INFO`, `@CLEAR -> no answer`). When the port opens, LSapp now ignores old data left from before the board's reset and waits until the board has really started, so commands no longer reach the bootloader.
+- The serial port is opened like in Arduino IDE (DTR and RTS on).
+- Board configurator: "Read board" asks the board up to 3 times.
+
 ## 0.000.6 (test version)
 
 - PCF8575 expanders are now optional in the firmware ("PCF8575 (I2C expander)" in "Flash LSboard firmware").
