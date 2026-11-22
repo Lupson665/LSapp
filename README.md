@@ -1,4 +1,4 @@
-# LSapp
+# LSapp - connector with MSFS2024
 
 Free home cockpit software for Microsoft Flight Simulator, by Lupson Simulation.
 
