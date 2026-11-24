@@ -11,8 +11,8 @@
 # sha256  = SHA-256 checksum of the installer
 # notes   = what is new, items separated with |
 
-version=0.000.7
+version=0.000.8
 module=6
-url=https://github.com/Lupson665/LSapp/releases/download/v0.000.7/LSapp_Setup_0.000.7.exe
-sha256=0e5a348014707d9de7330847c780146bc3465bfaec90f2e6d78fa6a9b6e6e1f1
-notes=Fix: Arduino Mega 2560 clones (CH340) can now be read and written in the board configurator|Serial port opened like in Arduino IDE (DTR and RTS on)
+url=https://github.com/Lupson665/LSapp/releases/download/v0.000.8/LSapp_Setup_0.000.8.exe
+sha256=b07747c7e9d38a79ab517cc568fd2acf8139e1e6e94e190e9147013d01a76eff
+notes=New boards: WeAct RA4M1 (all pins, named like on the board) and Arduino UNO R4 Minima|Install bootloader: a new WeAct RA4M1 board gets the Arduino bootloader from LSapp, no other program needed|Board configurator: drawing of the board, click a pin to choose it|Pictures and wiring diagrams in Read more|Getting started guide, Help menu and tips|LSapp now installs into C:\Program Files\LSapp; your data is kept in %LOCALAPPDATA%\Lupson Simulation\LSapp (copied there on the first start)
