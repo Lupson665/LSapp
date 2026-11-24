@@ -2,6 +2,16 @@
 
 All test versions of LSapp. Installers are on the [Releases](https://github.com/Lupson665/LSapp/releases) page.
 
+## 0.000.8 (test version)
+
+- New boards: **WeAct RA4M1** (all pins usable, named like on the board: P100, P101…) and **Arduino UNO R4 Minima**. LSapp finds a running RA4M1 board by itself – no port needed – and installs the USB driver for the upload mode the first time (Windows asks for permission).
+- **Install bootloader…** (Flash LSboard firmware, WeAct RA4M1): a new WeAct board comes without the Arduino bootloader. LSapp now installs it itself – hold BOOT, press RESET, release BOOT, click OK. No other program is needed.
+- Board configurator: a **drawing of the board** next to the elements. It shows which pins are used and which are free; click a pin to put it into the pin field.
+- "Read more…" for the elements now has pictures and wiring diagrams.
+- **Getting started** guide for a new cockpit (opens by itself on the first start without boards), a **Help ▾** menu in the main window, and short tips in the windows (turn them off in Help ▾).
+- LSapp now installs into **C:\Program Files\LSapp** ("Install for me only" is still offered). Your boards, assignments and settings are kept in **%LOCALAPPDATA%\Lupson Simulation\LSapp**; on the first start LSapp copies them there from the old program folder. New tray menu item **Open data folder**.
+- Board configurator: when a board has a COM port but sends nothing, LSapp suggests unplugging its USB cable and power supply.
+
 ## 0.000.7 (test version)
 
 - Fix: Arduino Mega 2560 clones (CH340) could not be read or written in the board configurator (`No answer to @INFO`, `@CLEAR -> no answer`). When the port opens, LSapp now ignores old data left from before the board's reset and waits until the board has really started, so commands no longer reach the bootloader.
